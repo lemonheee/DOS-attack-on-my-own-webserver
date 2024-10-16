@@ -26,6 +26,6 @@ I will uses hping3 to send many SYN requests to the target device.
 
    a. Install hping3 on the attack device.
    b. turn on webserver on the target device.
-      I used a simple python webs server: python3 -m http.server
+      I used a simple python webs server: " python3 -m http.server "
       It will start a web server on port 8000.
-   c. Turn on wireshark on the target device.
+   c. Turn on wireshark on the target device, in order to observe the network traffic.
