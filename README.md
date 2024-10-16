@@ -11,9 +11,9 @@ A SYN flood attack exploits a vulnerability in the TCP three-way handshake proce
 
 Here's how a SYN flood attack works:
 
-1. **Normal TCP connection:** In a normal TCP connection, a client sends a SYN packet to a server to initiate a connection. The server responds with a SYN-ACK packet. The client then sends an ACK packet to complete the connection.
-2. **SYN flood attack:** In a SYN flood attack, the attacker sends a large number of SYN packets to a server, but never sends the corresponding ACK packets. This causes the server to maintain a half-open connection for each SYN packet it receives, consuming system resources.
-3. **Server overload:** As the number of half-open connections grows, the server's resources become exhausted, and it is unable to handle new connection requests from legitimate users. This effectively denies service to legitimate users.
+ **Normal TCP connection:** In a normal TCP connection, a client sends a SYN packet to a server to initiate a connection. The server responds with a SYN-ACK packet. The client then sends an ACK packet to complete the connection.
+ **SYN flood attack:** In a SYN flood attack, the attacker sends a large number of SYN packets to a server, but never sends the corresponding ACK packets. This causes the server to maintain a half-open connection for each SYN packet it receives, consuming system resources.
+ **Server overload:** As the number of half-open connections grows, the server's resources become exhausted, and it is unable to handle new connection requests from legitimate users. This effectively denies service to legitimate users.
 
 **Here are some of the effects of a SYN flood attack:**
 
